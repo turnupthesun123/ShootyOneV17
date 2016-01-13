@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shooty One</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_level_one">LevelOne</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="btnPlay">Play</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnJava">Java</string>
+    <string name="btnC">C#</string>
+    <string name="btnVB">VB</string>
+    <string name="txtLevelOne">Level One</string>
+    <string name="txtScore">Score</string>
+    <string name="txtGotIt">Got It!</string>
+    <string name="txtTutorial">Tutorial \nDestroy the Asteroids!</string>
+    <string name="testStatement">System. *** .println();</string>
+
+    <color name="transp">#80000000</color>
+    <color name="blue">#7DF9FF</color>
+    <color name="electric_blue">#08E6FF</color>
+
+    <string name="title_activity_tutorial">TutorialActivity</string>
+
+</resources>

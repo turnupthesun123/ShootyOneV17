@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/txtTutorial"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/buttonshape"
+            android:gravity="top|center"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="10dip"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="TUTORIAL \n \n The mission is to destroy the asteroids before they hit the bottom of the screen, completeing as many code statements as possible along the way. \n \n Simply touch the asteroid you wish to destroy and if that asteroid contains the missing word from the statement on the screen that statement will be added to your library \n \n GOOD LUCK!"
+            android:textColor="#08E6FF"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/txtTutorial"
+            android:layout_alignLeft="@+id/txtTutorial"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:onClick="OnClickStart"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/txtGotIt"
+            android:textColor="#08E6FF"
+            android:textSize="20sp" />
+
+</RelativeLayout>
+
